@@ -393,7 +393,9 @@
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="Keyboard" Key="Key_N" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12">
+			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_6" />
+		</Secondary>
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
 		<Primary Device="{NoDevice}" Key="" />
@@ -467,9 +469,7 @@
 	</ToggleCargoScoop>
 	<EjectAllCargo>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="ThrustMasterTFlightHOTASX" Key="Joy_12">
-			<Modifier Device="ThrustMasterTFlightHOTASX" Key="Joy_7" />
-		</Secondary>
+		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
 		<Primary Device="Keyboard" Key="Key_L" />
@@ -544,7 +544,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusRightPanel>
 	<LeftPanelFocusOptions Value="" />
-	<CommsPanelFocusOptions Value="FocusOption_Show" />
+	<CommsPanelFocusOptions Value="" />
 	<RolePanelFocusOptions Value="" />
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
